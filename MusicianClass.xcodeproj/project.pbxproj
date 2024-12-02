@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17DE9E622C78DE6900EC9CA7 /* SuperMusician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE9E612C78DE6900EC9CA7 /* SuperMusician.swift */; };
 		17E2774D2C73828E00742937 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E2774C2C73828E00742937 /* main.swift */; };
+		17E277542C7382BD00742937 /* Musician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E277532C7382BD00742937 /* Musician.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17DE9E612C78DE6900EC9CA7 /* SuperMusician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMusician.swift; sourceTree = "<group>"; };
 		17E277492C73828E00742937 /* MusicianClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MusicianClass; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E2774C2C73828E00742937 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		17E277532C7382BD00742937 /* Musician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musician.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				17E2774C2C73828E00742937 /* main.swift */,
+				17E277532C7382BD00742937 /* Musician.swift */,
+				17DE9E612C78DE6900EC9CA7 /* SuperMusician.swift */,
 			);
 			path = MusicianClass;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E277542C7382BD00742937 /* Musician.swift in Sources */,
+				17DE9E622C78DE6900EC9CA7 /* SuperMusician.swift in Sources */,
 				17E2774D2C73828E00742937 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
